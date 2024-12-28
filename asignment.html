@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharad Navaratri Colors 2024</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .yellow { background-color: #ffff66; }
+        .green { background-color: #66ff66; }
+        .grey { background-color: #d9d9d9; }
+        .orange { background-color: #ff9933; }
+        .white { background-color: #ffffff; }
+        .red { background-color: #ff6666; }
+        .blue { background-color: #6666ff; }
+        .pink { background-color: #ff99ff; }
+        .purple { background-color: #cc99ff; }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align:center;">Sharad Navaratri Colors 2024</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Day</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="yellow">
+                <td>Oct 03, Thursday</td>
+                <td>Day 1</td>
+                <td>Yellow</td>
+            </tr>
+            <tr class="green">
+                <td>Oct 04, Friday</td>
+                <td>Day 2</td>
+                <td>Green</td>
+            </tr>
+            <tr class="grey">
+                <td>Oct 05, Saturday</td>
+                <td>Day 3</td>
+                <td>Grey</td>
+            </tr>
+            <tr class="orange">
+                <td>Oct 06, Sunday</td>
+                <td>Day 4</td>
+                <td>Orange</td>
+            </tr>
+            <tr class="white">
+                <td>Oct 07, Monday</td>
+                <td>Day 5</td>
+                <td>White</td>
+            </tr>
+            <tr class="red">
+                <td>Oct 08, Tuesday</td>
+                <td>Day 6</td>
+                <td>Red</td>
+            </tr>
+            <tr class="blue">
+                <td>Oct 09, Wednesday</td>
+                <td>Day 7</td>
+                <td>Royal Blue</td>
+            </tr>
+            <tr class="pink">
+                <td>Oct 10, Thursday</td>
+                <td>Day 8</td>
+                <td>Pink</td>
+            </tr>
+            <tr class="purple">
+                <td>Oct 11, Friday</td>
+                <td>Day 9</td>
+                <td>Purple</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+            font-size: 1rem;
+        }
+
+        /* Filters */
+        .filters {
+            padding: 10px 20px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        select {
+            padding: 10px;
+            font-size: 1rem;
+        }
+
+        /* Product Grid */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .product-details, .cart-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .cart-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        /* Buttons */
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Furniture Store</h1>
+        <nav>
+            <a href="#" onclick="showCatalog()">Home</a>
+            <a href="#" onclick="showCart()">View Cart</a>
+        </nav>
+    </header>
+
+    <main id="mainContent">
+        <!-- Dynamic Content -->
+    </main>
+
+    <script>
+        // Product Data
+        const products = [
+            { id: 1, name: "Modern Sofa", category: "sofa", price: 12000, image: "https://via.placeholder.com/200?text=Sofa" },
+            { id: 2, name: "Wooden Table", category: "table", price: 8000, image: "https://via.placeholder.com/200?text=Table" },
+            { id: 3, name: "King Size Bed", category: "bed", price: 15000, image: "https://via.placeholder.com/200?text=Bed" },
+            { id: 4, name: "Dining Set", category: "table", price: 25000, image: "https://via.placeholder.com/200?text=Dining+Set" },
+            { id: 5, name: "Recliner Chair", category: "sofa", price: 10000, image: "https://via.placeholder.com/200?text=Recliner+Chair" },
+        ];
+
+        let cart = [];
+
+        // Display Product Catalog
+        function showCatalog() {
+            const main = document.getElementById('mainContent');
+            main.innerHTML = `
+                <div class="filters">
+                    <select id="categoryFilter" onchange="filterProducts()">
+                        <option value="all">All Categories</option>
+                        <option value="sofa">Sofas</option>
+                        <option value="table">Tables</option>
+                        <option value="bed">Beds</option>
+                    </select>
+                </div>
+                <div id="productGrid" class="product-grid"></div>
+            `;
+            displayProducts(products);
+        }
+
+        function displayProducts(filteredProducts) {
+            const productGrid = document.getElementById('productGrid');
+            productGrid.innerHTML = '';
+            filteredProducts.forEach(product => {
+                productGrid.innerHTML += `
+                    <div class="product-card">
+                        <img src="${product.image}" alt="${product.name}">
+                        <h3 onclick="showProduct(${product.id})" style="cursor: pointer;">${product.name}</h3>
+                        <p>₹${product.price}</p>
+                        <button onclick="addToCart(${product.id})">Add to Cart</button>
+                    </div>
+                `;
+            });
+        }
+
+        function filterProducts() {
+            const category = document.getElementById('categoryFilter').value;
+            if (category === 'all') {
+                displayProducts(products);
+            } else {
+                const filtered = products.filter(p => p.category === category);
+                displayProducts(filtered);
+            }
+        }
+
+        // Display Product Details
+        function showProduct(productId) {
+            const product = products.find(p => p.id === productId);
+            const main = document.getElementById('mainContent');
+            main.innerHTML = `
+                <div class="product-details">
+                    <img src="${product.image}" alt="${product.name}" class="product-image">
+                    <h2>${product.name}</h2>
+                    <p class="price">Price: ₹${product.price}</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button onclick="addToCart(${product.id})">Add to Cart</button>
+                    <button onclick="showCatalog()">Back to Catalog</button>
+                </div>
+            `;
+        }
+
+        // Add to Cart
+        function addToCart(productId) {
+            const product = products.find(p => p.id === productId);
+            cart.push(product);
+            alert(`${product.name} added to cart!`);
+        }
+
+        // Display Cart
+        function showCart() {
+            const main = document.getElementById('mainContent');
+            if (cart.length === 0) {
+                main.innerHTML = `
+                    <div class="cart-container">
+                        <p>Your cart is empty!</p>
+                        <button onclick="showCatalog()">Back to Catalog</button>
+                    </div>
+                `;
+                return;
+            }
+
+            const totalPrice = cart.reduce((total, item) => total + item.price, 0);
+
+            main.innerHTML = `
+                <div class="cart-container">
+                    ${cart.map(item => `
+                        <div class="cart-item">
+                            <h3>${item.name}</h3>
+                            <p>₹${item.price}</p>
+                        </div>
+                    `).join('')}
+                    <p>Total: ₹${totalPrice}</p>
+                    <button onclick="checkout()">Checkout</button>
+                </div>
+            `;
+        }
+
+        function checkout() {
+            alert('Checkout complete! Thank you for shopping.');
+            cart = [];
+            showCatalog();
+        }
+
+        // Initial Load
+        showCatalog();
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starfield - Premium Furniture Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .cart-badge {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background-color: #2B6CB0;
+            color: white;
+            border-radius: 50%;
+            padding: 2px 6px;
+            font-size: 12px;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-blue-900">Reddy's furniture store</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+                    <div class="relative">
+                        <button id="cartBtn" class="p-2 rounded-full hover:bg-gray-100">
+                            <i class="bi bi-cart text-xl"></i>
+                            <span id="cartCount" class="cart-badge">0</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <div class="hero-section h-96 flex items-center justify-center text-center text-white mt-16">
+        <div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Premium Furniture for Your Home</h1>
+            <p class="text-xl mb-8">Transform your space with our luxurious collection</p>
+            <a href="#products" class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition">
+                Shop Now
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="products" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- Filters -->
+        <div class="mb-12">
+            <h2 class="text-2xl font-semibold mb-6">Browse Categories</h2>
+            <div class="flex flex-wrap gap-3">
+                <button class="category-btn bg-blue-100 text-blue-800 px-6 py-3 rounded-full hover:bg-blue-200 transition" data-category="all">All Collections</button>
+                <button class="category-btn bg-white text-gray-800 px-6 py-3 rounded-full hover:bg-gray-100 transition" data-category="living">Living Room</button>
+                <button class="category-btn bg-white text-gray-800 px-6 py-3 rounded-full hover:bg-gray-100 transition" data-category="bedroom">Bedroom</button>
+                <button class="category-btn bg-white text-gray-800 px-6 py-3 rounded-full hover:bg-gray-100 transition" data-category="dining">Dining Room</button>
+                <button class="category-btn bg-white text-gray-800 px-6 py-3 rounded-full hover:bg-gray-100 transition" data-category="office">Office</button>
+            </div>
+        </div>
+
+        <!-- Product Grid -->
+        <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <!-- Products will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-semibold mb-8 text-center">Contact Us</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <i class="bi bi-geo-alt text-3xl text-blue-600 mb-4"></i>
+                    <h3 class="font-semibold mb-2">Visit Us</h3>
+                    <p>#8 , Reddy's furnitture store , manuvana , Banglore, Karnataka 560040</p>
+                </div>
+                <div>
+                    <i class="bi bi-telephone text-3xl text-blue-600 mb-4"></i>
+                    <h3 class="font-semibold mb-2">Call Us</h3>
+                    <p>+91 9482908719</p>
+                </div>
+                <div>
+                    <i class="bi bi-envelope text-3xl text-blue-600 mb-4"></i>
+                    <h3 class="font-semibold mb-2">Email Us</h3>
+                    <p>hemanthreddya2005@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div id="cartModal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50">
+        <div class="fixed right-0 top-0 h-full w-full max-w-md bg-white shadow-xl">
+            <div class="p-4 flex justify-between items-center border-b">
+                <h2 class="text-xl font-semibold">Shopping Cart</h2>
+                <button onclick="toggleCart()" class="text-gray-500 hover:text-gray-700">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+            <div id="cartItems" class="p-4 overflow-y-auto" style="max-height: calc(100vh - 150px);">
+                <!-- Cart items will be inserted here -->
+            </div>
+            <div class="p-4 border-t">
+                <div class="flex justify-between mb-4">
+                    <span class="font-semibold">Total:</span>
+                    <span id="cartTotal" class="font-semibold">₹0</span>
+                </div>
+                <button onclick="checkout()" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">
+                    Proceed to Checkout
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const products = [
+            { id: 1, name: "Modern L-Shaped Sofa", price: 89999, category: "living", image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc" },
+            { id: 2, name: "King Size Platform Bed", price: 64999, category: "bedroom", image: "https://images.unsplash.com/photo-1505693314120-0d443867891c" },
+            { id: 3, name: "6-Seater Dining Set", price: 109999, category: "dining", image: "https://www.rajwadafurnish.com/cdn/shop/files/Oslo-Contemporary-Solid-Wood-6-Seater-Dining-Sets-by-rajwada-online-shop.webp?v=1722169539&width=1600" },
+            { id: 4, name: "Premium Lounge Chair", price: 34999, category: "living", image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7" },
+            { id: 5, name: "Modern Wardrobe", price: 54999, category: "bedroom", image: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c" },
+            { id: 6, name: "Coffee Table Set", price: 29999, category: "living", image: "https://images.durian.in/Durian/durian/product/800x800/product_2022100611101665054642_73584.jpg" },
+            { id: 7, name: "Executive Desk", price: 44999, category: "office", image: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd" },
+            { id: 8, name: "Ergonomic Office Chair", price: 24999, category: "office", image: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8" },
+            { id: 9, name: "Bookshelf with Storage", price: 19999, category: "living", image: "https://kuberfurniture.com/wp-content/uploads/2024/09/Bookshelf-Bookcase-Storage-Rack-2.webp" },
+            { id: 10, name: "Study Table", price: 15999, category: "office", image: "https://images.unsplash.com/photo-1526657782461-9fe13402a841" }
+        ];
+
+        let cart = [];
+        
+        function renderProducts(category = 'all') {
+            const grid = document.getElementById('productGrid');
+            grid.innerHTML = '';
+            
+            const filteredProducts = category === 'all' 
+                ? products 
+                : products.filter(p => p.category === category);
+
+            filteredProducts.forEach(product => {
+                const card = `
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden transform hover:scale-105 transition duration-300">
+                        <img src="${product.image}" alt="${product.name}" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-semibold text-lg mb-2">${product.name}</h3>
+                            <p class="text-gray-600 text-xl mb-4">₹${product.price.toLocaleString('en-IN')}</p>
+                            <button onclick="addToCart(${product.id})" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition flex items-center justify-center gap-2">
+                                <i class="bi bi-cart-plus"></i>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                `;
+                grid.innerHTML += card;
+            });
+        }
+
+        function addToCart(productId) {
+            const product = products.find(p => p.id === productId);
+            const existingItem = cart.find(item => item.id === productId);
+
+            if (existingItem) {
+                existingItem.quantity += 1;
+            } else {
+                cart.push({ ...product, quantity: 1 });
+            }
+
+            updateCartUI();
+        }
+
+        function removeFromCart(productId) {
+            cart = cart.filter(item => item.id !== productId);
+            updateCartUI();
+        }
+
+        function updateQuantity(productId, change) {
+            const item = cart.find(item => item.id === productId);
+            if (item) {
+                item.quantity = Math.max(0, item.quantity + change);
+                if (item.quantity === 0) {
+                    removeFromCart(productId);
+                }
+                updateCartUI();
+            }
+        }
+
+        function updateCartUI() {
+            const cartCount = document.getElementById('cartCount');
+            const cartItems = document.getElementById('cartItems');
+            const cartTotal = document.getElementById('cartTotal');
+            
+            const totalQuantity = cart.reduce((sum, item) => sum + item.quantity, 0);
+            cartCount.textContent = totalQuantity;
+
+            cartItems.innerHTML = cart.map(item => `
+                <div class="flex items-center gap-4 mb-4 pb-4 border-b">
+                    <img src="${item.image}" alt="${item.name}" class="w-20 h-20 object-cover rounded">
+                    <div class="flex-1">
+                        <h4 class="font-semibold">${item.name}</h4>
+                        <p class="text-gray-600">₹${item.price.toLocaleString('en-IN')}</p>
+                        <div class="flex items-center gap-2 mt-2">
+                            <button onclick="updateQuantity(${item.id}, -1)" class="px-2 py-1 bg-gray-100 rounded">-</button>
+                            <span>${item.quantity}</span>
+                            <button onclick="updateQuantity(${item.id}, 1)" class="px-2 py-1 bg-gray-100 rounded">+</button>
+                        </div>
+                    </div>
+                    <button onclick="removeFromCart(${item.id})" class="text-red-500">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </div>
+            `).join('');
+
+            const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            cartTotal.textContent = `₹${total.toLocaleString('en-IN')}`;
+        }
+
+        function toggleCart() {
+            const modal = document.getElementById('cartModal');
+            modal.classList.toggle('hidden');
+        }
+
+        function checkout() {
+            if (cart.length === 0) {
+                alert('Your cart is empty!');
+                return;
+            }
+            alert('Thank you for your purchase! We will contact you shortly for delivery details.');
+            cart = [];
+            updateCartUI();
+            toggleCart();
+        }
+
+        // Event Listeners
+        document.getElementById('cartBtn').addEventListener('click', toggleCart);
+        
+        document.querySelectorAll('.category-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                document.querySelectorAll('.category-btn').forEach(b => {
+                    b.classList.remove('bg-blue-100', 'text-blue-800');
+                    b.classList.add('bg-white', 'text-gray-800');
+                });
+                e.target.classList.remove('bg-white', 'text-gray-800');
+                e.target.classList.add('bg-blue-100', 'text-blue-800');
+                renderProducts(e.target.dataset.category);
+            });
+        });
+
+        // Initial render
+        renderProducts();
+    </script>
+</body>
+</html>
